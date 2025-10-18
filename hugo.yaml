@@ -1,3 +1,45 @@
-baseURL: https://example.org/
-languageCode: en-us
-title: My New Hugo Site
+baseURL: "https://cnfta-abula.github.io/NeuroMaker/"
+languageCode: "zh-tw"
+title: "NeuroMaker 教學筆記"
+theme: "PaperMod"
+enableRobotsTXT: true
+
+# 修正：BaseURL 已經包含子目錄，我們將 relativeURLs 設為 false，避免衝突。
+relativeURLs: false
+canonifyURLs: true
+
+pagination:                                                                                
+  pagerSize: 10
+
+params:
+  env: "production"
+  description: "記錄教學靈感、課程設計與創作經驗的空間"
+  author: "你的名字"
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  defaultTheme: "auto"
+  disableThemeToggle: false
+
+  homeInfoParams:
+    Title: "歡迎來到我的教學筆記"
+    Content: "這裡紀錄課程設計、教學心得與創作經驗。"
+
+# Hugo 預設的 images 快取路徑通常不需要手動設定，但如果保留，YAML 格式如下
+caches:
+  images:
+    dir: ":cacheDir/images" # YAML 中 Key-Value 結構
+
+menu:
+  main:
+    - identifier: "posts"
+      name: "文章"
+      url: "/posts/"
+      weight: 1
+    - identifier: "about"
+      name: "關於我"
+      url: "/about/"
+      weight: 2
+
+outputs:
+  home: ["HTML", "RSS", "JSON"]
