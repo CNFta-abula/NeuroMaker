@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>NeuroMaker 教學筆記</title>
-    <link>http://localhost:1313/NeuroMaker/</link>
+    <link>https://CNFta-abula.github.io/NeuroMaker/</link>
     <description>Recent content on NeuroMaker 教學筆記</description>
     <generator>Hugo -- 0.151.2</generator>
     <language>zh-tw</language>
     <lastBuildDate>Sun, 19 Oct 2025 01:55:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/NeuroMaker/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://CNFta-abula.github.io/NeuroMaker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我的第一篇文章</title>
-      <link>http://localhost:1313/NeuroMaker/posts/first-post/</link>
+      <link>https://CNFta-abula.github.io/NeuroMaker/posts/first-post/</link>
       <pubDate>Sun, 19 Oct 2025 01:55:00 +0800</pubDate>
-      <guid>http://localhost:1313/NeuroMaker/posts/first-post/</guid>
+      <guid>https://CNFta-abula.github.io/NeuroMaker/posts/first-post/</guid>
       <description>&lt;p&gt;這是一個測試文章，用來確認網站發佈是否成功。&lt;/p&gt;</description>
     </item>
   </channel>
