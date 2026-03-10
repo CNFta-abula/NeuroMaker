@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://prototypemind.com/sitemap.xml

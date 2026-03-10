@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>NeuroMaker 教學筆記</title>
+    <link>https://prototypemind.com/</link>
+    <description>Recent content on NeuroMaker 教學筆記</description>
+    <generator>Hugo -- 0.157.0</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Tue, 10 Mar 2026 18:00:00 +0800</lastBuildDate>
+    <atom:link href="https://prototypemind.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>測試文章：我的第一個 NeuroMaker 專案紀錄</title>
+      <link>https://prototypemind.com/posts/second/</link>
+      <pubDate>Tue, 10 Mar 2026 18:00:00 +0800</pubDate>
+      <guid>https://prototypemind.com/posts/second/</guid>
+      <description>&lt;p&gt;這是一篇用來測試 Hugo 排版與圖片顯示的文章！未來可以直接拿這篇當作寫作範本。&lt;/p&gt;
+&lt;h2 id=&#34;專案動機與目標&#34;&gt;專案動機與目標&lt;/h2&gt;
+&lt;p&gt;記錄這次專案的核心目標，例如探討如何將硬體實作（如 Arduino）結合心理學概念。&lt;/p&gt;
+&lt;h2 id=&#34;圖片排版測試&#34;&gt;圖片排版測試&lt;/h2&gt;
+&lt;p&gt;下面是一張測試圖片。只要把圖片放在 &lt;code&gt;static/images/&lt;/code&gt; 底下，就能輕鬆引用，我還加了圓角跟淡淡的陰影讓它看起來更有質感。&lt;/p&gt;
+&lt;div align=&#34;center&#34;&gt;
+  &lt;img src=&#34;https://prototypemind.com/images/test-image.jpg&#34; width=&#34;80%&#34; alt=&#34;請在 static/images 放一張名為 test-image.jpg 的圖片&#34; style=&#34;border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);&#34;&gt;
+  &lt;p style=&#34;color: gray; font-size: 0.9em;&#34;&gt;圖 1：這是我加了自訂效果的圖片&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;程式碼顯示測試&#34;&gt;程式碼顯示測試&lt;/h2&gt;
+&lt;p&gt;如果是開發筆記，放上 C++ 或 Python 程式碼，PaperMod 主題會自動幫我們做語法高亮：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;setup&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  Serial.begin(&lt;span style=&#34;color:#ae81ff&#34;&gt;115200&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  Serial.println(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello, NeuroMaker! 網站部署測試成功！&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>我的第一篇文章</title>
+      <link>https://prototypemind.com/posts/first-post/</link>
+      <pubDate>Sun, 19 Oct 2025 01:55:00 +0800</pubDate>
+      <guid>https://prototypemind.com/posts/first-post/</guid>
+      <description>&lt;p&gt;這是一個測試文章，用來確認網站發佈是否成功。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
