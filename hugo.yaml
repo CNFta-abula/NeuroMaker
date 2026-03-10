@@ -43,3 +43,8 @@ menu:
 
 outputs:
   home: ["HTML", "RSS", "JSON"]
+  
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
